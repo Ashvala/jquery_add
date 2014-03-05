@@ -33,7 +33,7 @@ console.log($(".number").addEmUp());
 If you want to just get the number that's been input on the first field:
 
 ```
-$("#no1").getNum()
+$("#no1").getNum();
 ```
 will return the number as a parsed float.
 
@@ -42,7 +42,7 @@ You can also send the data out on AJAX!
 
 ```
 var url = "http://localhost:8080";
-$(".number").addEmUpToAjax(url)
+$(".number").addEmUpToAjax(url);
 ```
 
 It creates a POST request and sends the added number over! Isn't that magical?
