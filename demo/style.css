@@ -6,7 +6,7 @@ body{
 }
 
 h1{
-  font-family: "AvenirNext-Ultralight", "HelveticaNeue-Ultralight";
+  font-family: "AvenirNext-Ultralight", "HelveticaNeue-Ultralight", sans-serif;
   font-weight: normal;
   margin-top: 30px;
   font-size: 3em;
@@ -15,9 +15,9 @@ h1{
 }
 
 
-.number{
+.button{
   margin-bottom: 30px;
-  font-family: "Avenir-light", "HelveticaNeue-Light";
+  font-family: "Avenir-light", "HelveticaNeue-Light", sans-serif;
   background: #222;
   color: white;
   padding-left: 30px;
@@ -27,7 +27,7 @@ h1{
 }
 
 .number:hover{ 
-  background: #111;
+  background: #666;
 }
 
 #add_button:hover{
