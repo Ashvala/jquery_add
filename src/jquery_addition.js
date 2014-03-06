@@ -12,7 +12,7 @@
         });
         return num;
     }
-    //"Let's get some AJAX going, babe" ~ Bender
+    //Let's just erm... get some AJAX working...
     $.fn.addEmUpToAjax = function(urltopost){
         var num = 0;
         $(this).each(function(){
@@ -25,7 +25,7 @@
             url: urltopost,
             data: {"result": num},
         });
-        console.log(num)
+        
         return num;
     }
 }(jQuery));
