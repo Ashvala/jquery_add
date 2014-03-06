@@ -1,17 +1,18 @@
 jquery_add
 ==========
 
-Inspired by Herzult/SimplePHPEasyPlus, jquery_add is a jquery plugin that will allow you to add two numbers.
+Inspired by [Herzult/SimplePHPEasyPlus](http://github.com/Herzult/SimplePHPEasyPlus), jquery_add is a jquery plugin that will allow you to add two numbers or more...
 
 Check out the demo at: http://ashvala.github.io/jquery_add
 
 Built in Functions:
 ===========
 
-There are 2 built in functions:
+There are 3 built in functions:
 
 - getNum()
 - addEmUp()
+- addEmUpAjax()
 
 Usage:
 =========
